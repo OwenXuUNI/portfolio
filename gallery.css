@@ -1,0 +1,84 @@
+body {
+    background-color: #FFCF56;
+    margin: 0;
+    color: #3a2a00
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 3.5vw;
+    margin-left: 40vw;
+}
+h2 {
+    font-family: "RobotoMono", monospace;
+    font-size: 1.2vw;
+    margin-left: 27vw;
+}
+
+#gallery_grid {
+    display: flex;
+    gap: 5vw;
+    padding: 5vw;
+    margin-top: -3vw;
+}
+
+.img_container {
+    position: relative;
+    width:25vw;
+    height:25vw;
+}
+
+.img_container img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    display: block;
+}
+
+.img_container .caption{
+    font-family: "Roboto Mono", monospace;
+    font-size: 2vw;
+    position: absolute;
+    background-color:#FFCF56;
+    padding: 0.5vw;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    color: #3a2a00;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.img_container:hover .caption{
+    opacity: 1;
+}
+
+#bottom_container {
+    position: fixed;
+    width: 100%;
+    height: 13vh;
+    bottom: 0;
+    background-color: #ffda6f;
+}
+
+#logo {
+    position: absolute;
+    width: 15vw;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 7vh;
+    margin-right: 3vw;
+    z-index: 10;
+    transition: 0.5s ease;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+}
