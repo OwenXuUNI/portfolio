@@ -1,0 +1,105 @@
+body {
+    background-color: #FFCF56;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    color: #3a2a00;
+    font-size: 3vw;
+    margin: 2vw;
+    margin-top: 5vh;
+    transition: 0.5s ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1:hover {
+    color: white;
+}
+
+.project_container {
+    display: flex;
+    gap: 2vw;
+    padding: 2vw;
+    height: 90vh;
+    width: 100vw;
+}
+
+.img_gallery {
+    background-color:#3a2a00;
+    border-radius: 1vh;;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    max-height: 60vh; 
+    overflow-y: auto;
+    padding: 2vh;
+}
+
+.img_gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+::-webkit-scrollbar {
+    width: 1vw;
+}
+
+::-webkit-scrollbar-track {
+    background-color:#ffda6f;
+    border-radius: 1vh;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:white ;
+    border-radius: 1vh;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    cursor: pointer;
+    background-color:#3a2a00;
+}
+
+.description {
+    font-family: "Roboto Mono",monospace;
+    font-size: 1.3vw;
+    color:#3a2a00;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.description p {
+    max-width: 40vw;
+}
+
+#bottom_container {
+    position: fixed;
+    width: 100%;
+    height: 13vh;
+    bottom: 0;
+    background-color: #ffda6f;
+}
+
+#logo {
+    position: absolute;
+    width: 15vw;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 7vh;
+    margin-right: 3vw;
+    z-index: 10;
+    transition: 0.5s ease;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+}
