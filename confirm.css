@@ -1,0 +1,52 @@
+body {
+    background-color: #FFCF56;
+    margin: 0;
+    font-family: "Roboto Mono", monospace;
+    font-size: 2vw;
+    color: #3a2a00;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 3vw;
+    margin: 2vw;
+    margin-top: 5vh;
+}
+
+a {
+    font-family: "RobotoMono", monospace;
+    font-size: 1.7vw;
+    text-decoration: none;
+    color: #3a2a00;
+    margin: 2vw;
+    transition: 0.5s ease;
+}
+
+a:hover {
+    font-size: 1.8vw;
+    color: white;
+}
+
+#bottom_container {
+    position: fixed;
+    width: 100%;
+    height: 13vh;
+    bottom: 0;
+    background-color: #ffda6f;
+}
+
+#logo {
+    position: absolute;
+    width: 15vw;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 7vh;
+    margin-right: 3vw;
+    z-index: 10;
+    transition: 0.5s ease;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+}

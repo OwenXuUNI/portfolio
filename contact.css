@@ -1,0 +1,87 @@
+body {
+    background-color: #FFCF56;
+    margin: 0;
+    font-family: "Roboto Mono", monospace;
+    font-size: 2vw;
+    color: #3a2a00;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 3vw;
+    margin: 2vw;
+    margin-top: 5vh;
+}
+
+form {
+    margin: 2vw;
+}
+
+#bottom_container {
+    position: fixed;
+    width: 100%;
+    height: 13vh;
+    bottom: 0;
+    background-color: #ffda6f;
+}
+
+#logo {
+    position: absolute;
+    width: 15vw;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 7vh;
+    margin-right: 3vw;
+    z-index: 10;
+    transition: 0.5s ease;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+}
+
+.contact-form {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.contact-form label {
+    margin-top: -2vh;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 1vh;
+    border: 1px solid #ccc;
+    border-radius: 0.5vh;
+    font-size: 1rem;
+    margin-bottom: -1vh;
+    font-family: inherit;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: black;
+}
+
+.contact-form button {
+    padding: 1.5vh;
+    background: #3a2a00;
+    color: white;
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    font-size: 1vw;
+    margin-top: -1.5vh;
+    transition: 0.5s ease;
+}
+
+.contact-form button:hover {
+    background: #ffda6f;
+    color:#3a2a00;
+    font-size: 1.1vw;
+}
