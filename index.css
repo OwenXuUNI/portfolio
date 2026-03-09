@@ -7,7 +7,7 @@ a-scene canvas {
     top: 5vh;
     left: 50%;
     transform: translateX(-50%);
-    color: white;
+    color: #3a2a00;
     font-size: 1.8vw;
     font-family: "Roboto Mono", monospace;
     text-align: center;
@@ -64,4 +64,5 @@ img {
 #help_overlay.active {
     opacity: 1;
     pointer-events: none;
+
 }
